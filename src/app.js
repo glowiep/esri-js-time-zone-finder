@@ -1,25 +1,3 @@
-// $(() => {
-//   import Map from "esri/Map";
-//   import MapView from "esri/views/MapView";
-//   import FeatureLayer from "esri/layers/FeatureLayer";
-//   import Legend from "esri/widgets/Legend";
-  
-//   const map = new Map({
-//     basemap: "streets"
-//   });
-  
-//   const view = new MapView({
-//     container: "mapDiv",
-//     map: map,
-//     center: [0, 0],
-//     zoom: 4
-//   })
-  
-//   const FeatureLayer = new FeatureLayer({
-    
-//   })
-// });
-
 require([
   "esri/Map",
   "esri/views/MapView",
@@ -71,7 +49,6 @@ require([
       outFields: ["*"], // Adjust based on the data you need
       popupTemplate: {
           title: "Zone: {ZONE}", // Replace with your field
-          // content: createChart
       }
   });
   map.add(featureLayer);
