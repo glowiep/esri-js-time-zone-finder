@@ -6,7 +6,7 @@ World_Time_Zones feature layer is loaded from ArcGIS REST Services Directory ont
 
 ![Screenshot of Time Zone Finder](docs/time-zone-finder-screenshot.png)
 
-View on browser: https://glowiep.github.io/time-zone-finder/
+View on browser: https://glowiep.github.io/esri-js-time-zone-finder/
 
 ## Sources
 - <a href="https://developers.arcgis.com/javascript/latest/">ArcGIS Maps SDK for JavaScript</a>
